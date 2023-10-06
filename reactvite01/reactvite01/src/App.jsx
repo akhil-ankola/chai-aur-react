@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './index.css';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <button onClick={increment}>increament {count}</button>
       <button onClick={decrement}>decrement {count}</button>
       <p>{count}</p>
+      <h1 className='bg-blue-400 text-black p-4 rounded-xl'>Tailwind test</h1>
     </>
   )
 }
